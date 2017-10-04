@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="hello_dave">Hello Dave!</string>
+    <string name="my_great_app">My Great App</string>
 </resources>
