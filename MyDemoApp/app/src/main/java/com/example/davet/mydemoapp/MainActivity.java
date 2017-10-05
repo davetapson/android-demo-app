@@ -8,10 +8,12 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void buttonPressed(View view){
-        EditText myTextField = (EditText) findViewById(R.id.myTextField);
-        Log.i("Info", myTextField.getText().toString());
-        myTextField.setText("Hello");
+    public void logIn(View view){
+        EditText txtUserName = (EditText) findViewById(R.id.txtUserName);
+        EditText txtPassword = (EditText) findViewById(R.id.txtPassword);
+
+        Log.i("Info", txtUserName.getText().toString());
+        Log.i("Info", txtPassword.getText().toString());
     }
 
     @Override
